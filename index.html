@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Pratap Caters – Premium Catering Services in Lucknow, India. Weddings, Corporate Events, Parties. Serving Happiness with Every Bite." />
+  <meta name="keywords" content="catering Lucknow, wedding catering, corporate catering, party catering, buffet Lucknow" />
+  <title>Pratap Caters | Premium Catering Services in Lucknow</title>
+
+  <!-- Bootstrap 5 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+  <!-- GLightbox -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar navbar-expand-lg fixed-top" id="mainNavbar">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center gap-2" href="#home">
+      <div class="logo-icon"><i class="fas fa-utensils"></i></div>
+      <div>
+        <div class="brand-name">Pratap Caters</div>
+        <div class="brand-tagline">Serving Happiness with Every Bite</div>
+      </div>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="hamburger-icon"><span></span><span></span><span></span></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+        <li class="nav-item"><a class="nav-link" href="#events">Events</a></li>
+        <li class="nav-item"><a class="nav-link" href="#testimonials">Reviews</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        <li class="nav-item ms-lg-2">
+          <a class="btn btn-gold" href="#contact">Book Now</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ===== HERO SECTION ===== -->
+<section id="home">
+  <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <div class="hero-slide" style="background-image:url('https://images.unsplash.com/photo-1555244162-803834f70033?w=1600&q=80')">
+          <div class="hero-overlay"></div>
+          <div class="hero-content">
+            <p class="hero-eyebrow" data-aos="fade-down">Lucknow's Finest</p>
+            <h1 data-aos="fade-up" data-aos-delay="100">Premium Catering<br><em>Services in Lucknow</em></h1>
+            <p class="hero-sub" data-aos="fade-up" data-aos-delay="200">Crafting unforgettable culinary experiences for your most cherished celebrations.</p>
+            <div class="hero-btns" data-aos="fade-up" data-aos-delay="300">
+              <a href="#contact" class="btn btn-gold btn-lg">Book Now <i class="fas fa-arrow-right ms-2"></i></a>
+              <a href="#menu" class="btn btn-outline-light btn-lg ms-3">View Menu</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="hero-slide" style="background-image:url('https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=1600&q=80')">
+          <div class="hero-overlay"></div>
+          <div class="hero-content">
+            <p class="hero-eyebrow">Wedding Specialists</p>
+            <h1>Your Dream Wedding<br><em>Begins at the Table</em></h1>
+            <p class="hero-sub">Exquisite wedding menus curated with Awadhi tradition and modern finesse.</p>
+            <div class="hero-btns">
+              <a href="#contact" class="btn btn-gold btn-lg">Book Now <i class="fas fa-arrow-right ms-2"></i></a>
+              <a href="#menu" class="btn btn-outline-light btn-lg ms-3">View Menu</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="hero-slide" style="background-image:url('https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=1600&q=80')">
+          <div class="hero-overlay"></div>
+          <div class="hero-content">
+            <p class="hero-eyebrow">Corporate Excellence</p>
+            <h1>Impress Clients,<br><em>Elevate Every Event</em></h1>
+            <p class="hero-sub">Professional corporate catering that leaves a lasting impression on every guest.</p>
+            <div class="hero-btns">
+              <a href="#contact" class="btn btn-gold btn-lg">Book Now <i class="fas fa-arrow-right ms-2"></i></a>
+              <a href="#menu" class="btn btn-outline-light btn-lg ms-3">View Menu</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+      <i class="fas fa-chevron-left carousel-arrow"></i>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+      <i class="fas fa-chevron-right carousel-arrow"></i>
+    </button>
+    <div class="carousel-indicators hero-indicators">
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+    </div>
+  </div>
+</section>
+
+<!-- ===== STATS BAR ===== -->
+<div class="stats-bar">
+  <div class="container">
+    <div class="row g-0">
+      <div class="col-6 col-md-3 stat-item" data-aos="fade-up">
+        <span class="stat-number" data-target="1200">0</span><span class="stat-plus">+</span>
+        <span class="stat-label">Events Catered</span>
+      </div>
+      <div class="col-6 col-md-3 stat-item" data-aos="fade-up" data-aos-delay="100">
+        <span class="stat-number" data-target="15">0</span><span class="stat-plus">+</span>
+        <span class="stat-label">Years Experience</span>
+      </div>
+      <div class="col-6 col-md-3 stat-item" data-aos="fade-up" data-aos-delay="200">
+        <span class="stat-number" data-target="98">0</span><span class="stat-plus">%</span>
+        <span class="stat-label">Happy Clients</span>
+      </div>
+      <div class="col-6 col-md-3 stat-item" data-aos="fade-up" data-aos-delay="300">
+        <span class="stat-number" data-target="50">0</span><span class="stat-plus">+</span>
+        <span class="stat-label">Menu Items</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== ABOUT SECTION ===== -->
+<section id="about" class="section-pad">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6" data-aos="fade-right">
+        <div class="about-img-wrap">
+          <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80" alt="About Pratap Caters" class="about-main-img" />
+          <div class="about-badge">
+            <i class="fas fa-award"></i>
+            <span>Award-Winning<br>Caterers</span>
+          </div>
+          <div class="about-img-accent"></div>
+        </div>
+      </div>
+      <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
+        <div class="section-label">About Us</div>
+        <h2 class="section-title">A Legacy of Flavour <em>Born in Lucknow</em></h2>
+        <p class="section-text">At Pratap Caters, we bring the rich culinary heritage of Awadh to your most special moments. Founded over 15 years ago in the heart of Lucknow, we have earned the trust of thousands of families, corporates, and event planners across Uttar Pradesh.</p>
+        <p class="section-text">Our master chefs blend traditional Nawabi recipes with contemporary techniques, ensuring every dish tells a story of craftsmanship and care. From intimate gatherings to grand weddings of 5,000 guests — we deliver nothing short of excellence.</p>
+        <div class="about-features">
+          <div class="about-feature"><i class="fas fa-check-circle"></i> FSSAI Licensed & Certified</div>
+          <div class="about-feature"><i class="fas fa-check-circle"></i> Hygienic, Farm-Fresh Ingredients</div>
+          <div class="about-feature"><i class="fas fa-check-circle"></i> Customisable Menus for Every Budget</div>
+          <div class="about-feature"><i class="fas fa-check-circle"></i> Dedicated Event Coordinators</div>
+        </div>
+        <a href="#contact" class="btn btn-gold mt-4">Get in Touch <i class="fas fa-arrow-right ms-2"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SERVICES SECTION ===== -->
+<section id="services" class="section-pad bg-dark-rich">
+  <div class="container">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <div class="section-label light">Our Services</div>
+      <h2 class="section-title light">What We <em>Specialise In</em></h2>
+      <p class="section-subtitle">From intimate dinners to grand celebrations, our services are crafted to perfection.</p>
+    </div>
+    <div class="row g-4">
+
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-heart"></i></div>
+          <h3>Wedding Catering</h3>
+          <p>Grand wedding feasts blending Awadhi Biryani, live counters, royal thalis, and bespoke dessert stations for your dream shaadi.</p>
+          <ul class="service-list">
+            <li><i class="fas fa-chevron-right"></i> Mehendi, Sangeet & Reception</li>
+            <li><i class="fas fa-chevron-right"></i> Live Chaat & Tandoor Counters</li>
+            <li><i class="fas fa-chevron-right"></i> Custom Bridal Cake & Sweets</li>
+          </ul>
+          <a href="#contact" class="service-link">Enquire Now <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-card service-card--featured">
+          <div class="featured-badge">Most Popular</div>
+          <div class="service-icon"><i class="fas fa-briefcase"></i></div>
+          <h3>Corporate Events</h3>
+          <p>Professional catering for board meetings, product launches, conferences and team events — elegant, punctual, and impeccable.</p>
+          <ul class="service-list">
+            <li><i class="fas fa-chevron-right"></i> Breakfast & Hi-Tea Setups</li>
+            <li><i class="fas fa-chevron-right"></i> Buffet & Box Lunch Options</li>
+            <li><i class="fas fa-chevron-right"></i> Branded Presentation & Decor</li>
+          </ul>
+          <a href="#contact" class="service-link">Enquire Now <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-birthday-cake"></i></div>
+          <h3>Birthday & Parties</h3>
+          <p>Fun, vibrant, and delicious — our birthday and social party catering adds the wow factor your guests will rave about.</p>
+          <ul class="service-list">
+            <li><i class="fas fa-chevron-right"></i> Theme-Based Food Stations</li>
+            <li><i class="fas fa-chevron-right"></i> Kids & Adults Menus</li>
+            <li><i class="fas fa-chevron-right"></i> Mocktail & Beverages Bar</li>
+          </ul>
+          <a href="#contact" class="service-link">Enquire Now <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-star-and-crescent"></i></div>
+          <h3>Religious Occasions</h3>
+          <p>Sattvic and halal menus for pooja, aqiqah, mundan, iftar dawat and all religious gatherings — respectful and authentic.</p>
+          <ul class="service-list">
+            <li><i class="fas fa-chevron-right"></i> Pure Veg & Halal Options</li>
+            <li><i class="fas fa-chevron-right"></i> Traditional Prashad Setups</li>
+            <li><i class="fas fa-chevron-right"></i> Community Langar Service</li>
+          </ul>
+          <a href="#contact" class="service-link">Enquire Now <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-glass-cheers"></i></div>
+          <h3>Social Gatherings</h3>
+          <p>House parties, anniversary dinners, family reunions — we make every social occasion deliciously memorable.</p>
+          <ul class="service-list">
+            <li><i class="fas fa-chevron-right"></i> Customisable Guest Count</li>
+            <li><i class="fas fa-chevron-right"></i> Indoor & Outdoor Service</li>
+            <li><i class="fas fa-chevron-right"></i> Décor & Tableware Included</li>
+          </ul>
+          <a href="#contact" class="service-link">Enquire Now <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-truck"></i></div>
+          <h3>Food Truck & Live Counters</h3>
+          <p>Bring the experience to life with sizzling live counters — chaat, kebab, biryani, dosa, pasta and more at your venue.</p>
+          <ul class="service-list">
+            <li><i class="fas fa-chevron-right"></i> 10+ Live Counter Options</li>
+            <li><i class="fas fa-chevron-right"></i> Trained Live Counter Chefs</li>
+            <li><i class="fas fa-chevron-right"></i> Fully Equipped Setup</li>
+          </ul>
+          <a href="#contact" class="service-link">Enquire Now <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== MENU / GALLERY ===== -->
+<section id="menu" class="section-pad">
+  <div class="container">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <div class="section-label">Our Menu</div>
+      <h2 class="section-title">A Feast for <em>Every Occasion</em></h2>
+      <p class="section-subtitle">Browse our signature dishes crafted by Lucknow's finest culinary artisans.</p>
+    </div>
+
+    <!-- Filter Tabs -->
+    <div class="gallery-filters text-center mb-4" data-aos="fade-up">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="starters">Starters</button>
+      <button class="filter-btn" data-filter="mains">Main Course</button>
+      <button class="filter-btn" data-filter="breads">Breads</button>
+      <button class="filter-btn" data-filter="desserts">Desserts</button>
+      <button class="filter-btn" data-filter="drinks">Beverages</button>
+    </div>
+
+    <div class="gallery-grid" id="galleryGrid">
+
+      <div class="gallery-item" data-category="mains" data-aos="zoom-in">
+        <a href="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=1200&q=90" class="glightbox" data-gallery="food" data-title="Awadhi Dum Biryani">
+          <img src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=600&q=80" alt="Awadhi Dum Biryani" />
+          <div class="gallery-hover">
+            <i class="fas fa-search-plus"></i>
+            <span>Awadhi Dum Biryani</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="gallery-item" data-category="starters" data-aos="zoom-in" data-aos-delay="50">
+        <a href="https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=1200&q=90" class="glightbox" data-gallery="food" data-title="Seekh Kebab Platter">
+          <img src="https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=600&q=80" alt="Seekh Kebab" />
+          <div class="gallery-hover">
+            <i class="fas fa-search-plus"></i>
+            <span>Seekh Kebab Platter</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="gallery-item" data-category="desserts" data-aos="zoom-in" data-aos-delay="100">
+        <a href="https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=1200&q=90" class="glightbox" data-gallery="food" data-title="Royal Gulab Jamun">
+          <img src="https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=600&q=80" alt="Gulab Jamun" />
+          <div class="gallery-hover">
+            <i class="fas fa-search-plus"></i>
+            <span>Royal Gulab Jamun</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="gallery-item" data-category="mains" data-aos="zoom-in" data-aos-delay="50">
+        <a href="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=1200&q=90" class="glightbox" data-gallery="food" data-title="Butter Chicken">
+          <img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=600&q=80" alt="Butter Chicken" />
+          <div class="gallery-hover">
+            <i class="fas fa-search-plus"></i>
+            <span>Classic Butter Chicken</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="gallery-item" data-category="starters" data-aos="zoom-in" data-aos-delay="100">
+        <a href="https://images.unsplash.com/photo-1601050690597-df0568f70950?w=1200&q=90" class="glightbox" data-gallery="food" data-title="Samosa Chaat">
+          <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?w=600&q=80" alt="Samosa Chaat" />
+          <div class="gallery-hover">
+            <i class="fas fa-search-plus"></i>
+            <span>Samosa Chaat</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="gallery-item" data-category="breads" data-aos="zoom-in" data-aos-delay="150">
+        <a href="https://images.unsplash.com/photo-1530610476181-d83430b64dcd?w=1200&q=90" class="glightbox" data-gallery="food" data-title="Roomali Roti">
+          <img src="https://images.unsplash.com/photo-1530610476181-d83430b64dcd?w=600&q=80" alt="Roomali Roti" />
+          <div class="gallery-hover">
+            <i class="fas fa-search-plus"></i>
+            <span>Roomali Roti</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="gallery-item" data-category="desserts" data-aos="zoom-in" data-aos-delay="0">
+        <a href="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=1200&q=90" class="glightbox" data-gallery="food" data-title="Wedding Cake">
+          <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600&q=80" alt="Wedding Cake" />
+          <div class="gallery-hover">
+            <i class="fas fa-search-plus"></i>
+            <span>Bespoke Wedding Cake</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="gallery-item" data-category="drinks" data-aos="zoom-in" data-aos-delay="50">
+        <a href="https://images.unsplash.com/photo-1544145945-f90425340c7e?w=1200&q=90" class="glightbox" data-gallery="food" data-title="Mocktail Selection">
+          <img src="https://images.unsplash.com/photo-1544145945-f90425340c7e?w=600&q=80" alt="Mocktails" />
+          <div class="gallery-hover">
+            <i class="fas fa-search-plus"></i>
+            <span>Mocktail Selection</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="gallery-item" data-category="mains" data-aos="zoom-in" data-aos-delay="100">
+        <a href="https://images.unsplash.com/photo-1574894709920-11b28e7367e3?w=1200&q=90" class="glightbox" data-gallery="food" data-title="Paneer Tikka Masala">
+          <img src="https://images.unsplash.com/photo-1574894709920-11b28e7367e3?w=600&q=80" alt="Paneer Tikka Masala" />
+          <div class="gallery-hover">
+            <i class="fas fa-search-plus"></i>
+            <span>Paneer Tikka Masala</span>
+          </div>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== PARALLAX BANNER ===== -->
+<div class="parallax-banner">
+  <div class="parallax-overlay"></div>
+  <div class="container text-center" data-aos="zoom-in">
+    <p class="parallax-eyebrow">Pratap Caters</p>
+    <h2 class="parallax-title">"Serving Happiness<br>with Every Bite"</h2>
+    <a href="#contact" class="btn btn-gold btn-lg mt-4">Plan Your Event <i class="fas fa-arrow-right ms-2"></i></a>
+  </div>
+</div>
+
+<!-- ===== EVENTS SHOWCASE ===== -->
+<section id="events" class="section-pad">
+  <div class="container">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <div class="section-label">Our Portfolio</div>
+      <h2 class="section-title">Events We've <em>Made Magical</em></h2>
+      <p class="section-subtitle">A glimpse into the celebrations we've been honoured to be a part of.</p>
+    </div>
+
+    <div id="eventsCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <div class="row g-4">
+            <div class="col-md-6" data-aos="fade-right">
+              <div class="event-card">
+                <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=800&q=80" alt="Grand Wedding" />
+                <div class="event-card-body">
+                  <span class="event-tag">Wedding</span>
+                  <h4>The Sharma-Verma Grand Wedding</h4>
+                  <p>A 3,000-guest extravaganza at Hotel Taj, Lucknow. Featuring live Dum Biryani, Nawabi Dastarkhan & dessert spread.</p>
+                  <div class="event-meta">
+                    <span><i class="fas fa-users"></i> 3,000 Guests</span>
+                    <span><i class="fas fa-map-marker-alt"></i> Taj Hotel, Lucknow</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6" data-aos="fade-left">
+              <div class="event-card">
+                <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80" alt="Corporate Event" />
+                <div class="event-card-body">
+                  <span class="event-tag corporate">Corporate</span>
+                  <h4>TechIndia Annual Conference 2024</h4>
+                  <p>Multi-cuisine buffet for 800 corporate delegates. Breakfast, hi-tea, lunch & networking dinner all handled seamlessly.</p>
+                  <div class="event-meta">
+                    <span><i class="fas fa-users"></i> 800 Guests</span>
+                    <span><i class="fas fa-map-marker-alt"></i> Gomti Nagar, Lucknow</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row g-4">
+            <div class="col-md-6">
+              <div class="event-card">
+                <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" alt="Birthday Party" />
+                <div class="event-card-body">
+                  <span class="event-tag birthday">Birthday</span>
+                  <h4>Aryan's Royal 25th Birthday</h4>
+                  <p>A themed birthday bash for 200 guests with a live pasta counter, mocktail bar, and a 5-tier custom cake.</p>
+                  <div class="event-meta">
+                    <span><i class="fas fa-users"></i> 200 Guests</span>
+                    <span><i class="fas fa-map-marker-alt"></i> Hazratganj, Lucknow</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="event-card">
+                <img src="https://images.unsplash.com/photo-1478146896981-b80fe463b330?w=800&q=80" alt="Religious Event" />
+                <div class="event-card-body">
+                  <span class="event-tag religious">Religious</span>
+                  <h4>Iftar Dawat – Noor Mahal</h4>
+                  <p>A heartwarming Iftar spread for 1,200 guests featuring haleem, fruit chaat, sheer khurma & traditional non-veg delights.</p>
+                  <div class="event-meta">
+                    <span><i class="fas fa-users"></i> 1,200 Guests</span>
+                    <span><i class="fas fa-map-marker-alt"></i> Old Lucknow</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="d-flex justify-content-center gap-3 mt-4">
+        <button class="carousel-ctrl-btn" type="button" data-bs-target="#eventsCarousel" data-bs-slide="prev">
+          <i class="fas fa-arrow-left"></i>
+        </button>
+        <button class="carousel-ctrl-btn" type="button" data-bs-target="#eventsCarousel" data-bs-slide="next">
+          <i class="fas fa-arrow-right"></i>
+        </button>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ===== TESTIMONIALS ===== -->
+<section id="testimonials" class="section-pad bg-dark-rich">
+  <div class="container">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <div class="section-label light">Testimonials</div>
+      <h2 class="section-title light">What Our Clients <em>Say About Us</em></h2>
+    </div>
+
+    <div id="testimonialsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <div class="row g-4 justify-content-center">
+            <div class="col-md-6 col-lg-4" data-aos="fade-up">
+              <div class="testi-card">
+                <div class="testi-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                <p class="testi-text">"Pratap Caters made our wedding day absolutely perfect. The Dum Biryani was extraordinary and every single guest complimented the food. Truly exceptional service!"</p>
+                <div class="testi-author">
+                  <div class="testi-avatar">RS</div>
+                  <div>
+                    <strong>Riya Sharma</strong>
+                    <span>Bride, Lucknow 2024</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+              <div class="testi-card testi-card--featured">
+                <div class="testi-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                <p class="testi-text">"We hired them for our company's annual conference. The food quality, presentation, and staff professionalism was world-class. Will definitely book again for our next event."</p>
+                <div class="testi-author">
+                  <div class="testi-avatar">AK</div>
+                  <div>
+                    <strong>Amit Kumar</strong>
+                    <span>CEO, TechIndia Solutions</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+              <div class="testi-card">
+                <div class="testi-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></div>
+                <p class="testi-text">"The live counter setup for my son's birthday was a huge hit! Kids and adults both loved it. The mocktail bar was amazing. Absolutely recommend them for any celebration."</p>
+                <div class="testi-author">
+                  <div class="testi-avatar">PM</div>
+                  <div>
+                    <strong>Priya Mehrotra</strong>
+                    <span>Parent, Birthday Event</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row g-4 justify-content-center">
+            <div class="col-md-6 col-lg-4" data-aos="fade-up">
+              <div class="testi-card">
+                <div class="testi-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                <p class="testi-text">"Organised Iftar for 1200 guests and everything was seamless. The haleem and sheer khurma were cooked to perfection. A trusted name for large-scale events."</p>
+                <div class="testi-author">
+                  <div class="testi-avatar">MR</div>
+                  <div>
+                    <strong>Mohammad Rizwan</strong>
+                    <span>Event Host, Lucknow</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+              <div class="testi-card testi-card--featured">
+                <div class="testi-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                <p class="testi-text">"As a wedding planner I have worked with many caterers, but Pratap Caters is consistently top-tier. Always on time, always delicious. My clients rave about them every time."</p>
+                <div class="testi-author">
+                  <div class="testi-avatar">SG</div>
+                  <div>
+                    <strong>Sunita Gupta</strong>
+                    <span>Wedding Planner, LKO</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+              <div class="testi-card">
+                <div class="testi-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                <p class="testi-text">"Outstanding food and service for our anniversary dinner at home. They set up beautifully, cooked fresh and cleaned up perfectly. Highly professional team throughout."</p>
+                <div class="testi-author">
+                  <div class="testi-avatar">VP</div>
+                  <div>
+                    <strong>Vikas & Pooja</strong>
+                    <span>Anniversary Celebration</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="d-flex justify-content-center gap-3 mt-4">
+        <button class="carousel-ctrl-btn" type="button" data-bs-target="#testimonialsCarousel" data-bs-slide="prev">
+          <i class="fas fa-arrow-left"></i>
+        </button>
+        <button class="carousel-ctrl-btn" type="button" data-bs-target="#testimonialsCarousel" data-bs-slide="next">
+          <i class="fas fa-arrow-right"></i>
+        </button>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ===== CTA BANNER ===== -->
+<section class="cta-banner" data-aos="zoom-in">
+  <div class="container text-center">
+    <h2>Ready to <em>Make Your Event Legendary?</em></h2>
+    <p>Call us now or fill out the form below. We respond within 24 hours.</p>
+    <div class="d-flex flex-wrap gap-3 justify-content-center mt-4">
+      <a href="tel:+919876543210" class="btn btn-gold btn-lg"><i class="fas fa-phone me-2"></i> Call Now</a>
+      <a href="#contact" class="btn btn-outline-light btn-lg"><i class="fas fa-envelope me-2"></i> Send Enquiry</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT SECTION ===== -->
+<section id="contact" class="section-pad">
+  <div class="container">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <div class="section-label">Contact Us</div>
+      <h2 class="section-title">Let's Plan Your <em>Perfect Event</em></h2>
+      <p class="section-subtitle">Fill in the form and our team will get back to you within 24 hours.</p>
+    </div>
+
+    <div class="row g-5">
+      <!-- Contact Info -->
+      <div class="col-lg-5" data-aos="fade-right">
+        <div class="contact-info">
+          <div class="contact-info-item">
+            <div class="ci-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <strong>Our Location</strong>
+              <p>23, Hazratganj Market, Lucknow,<br>Uttar Pradesh – 226001, India</p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="ci-icon"><i class="fas fa-phone-alt"></i></div>
+            <div>
+              <strong>Call / WhatsApp</strong>
+              <p><a href="tel:+919876543210">+91 98765 43210</a><br><a href="tel:+910522123456">+91 0522 123456</a></p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="ci-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <strong>Email Us</strong>
+              <p><a href="mailto:info@pratapcaters.in">info@pratapcaters.in</a></p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="ci-icon"><i class="fas fa-clock"></i></div>
+            <div>
+              <strong>Working Hours</strong>
+              <p>Mon – Sat: 9:00 AM – 8:00 PM<br>Sunday: By Appointment</p>
+            </div>
+          </div>
+          <div class="social-links mt-4">
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="col-lg-7" data-aos="fade-left">
+        <form id="contactForm" class="contact-form" novalidate>
+          <div class="row g-3">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label>Your Name *</label>
+                <input type="text" id="name" class="form-control" placeholder="Rahul Sharma" required />
+                <div class="invalid-feedback">Please enter your name.</div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label>Phone Number *</label>
+                <input type="tel" id="phone" class="form-control" placeholder="+91 98765 00000" required />
+                <div class="invalid-feedback">Please enter a valid phone number.</div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label>Email Address</label>
+                <input type="email" id="email" class="form-control" placeholder="rahul@email.com" />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label>Event Type *</label>
+                <select id="eventType" class="form-control" required>
+                  <option value="">Select Event Type</option>
+                  <option>Wedding / Shaadi</option>
+                  <option>Corporate Event</option>
+                  <option>Birthday Party</option>
+                  <option>Religious Function</option>
+                  <option>Social Gathering</option>
+                  <option>Other</option>
+                </select>
+                <div class="invalid-feedback">Please select event type.</div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label>Event Date</label>
+                <input type="date" id="eventDate" class="form-control" />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label>Expected Guests *</label>
+                <select id="guests" class="form-control" required>
+                  <option value="">Number of Guests</option>
+                  <option>50 – 100</option>
+                  <option>100 – 250</option>
+                  <option>250 – 500</option>
+                  <option>500 – 1000</option>
+                  <option>1000+</option>
+                </select>
+                <div class="invalid-feedback">Please select guest count.</div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="form-group">
+                <label>Your Message</label>
+                <textarea id="message" class="form-control" rows="4" placeholder="Tell us about your event requirements, venue, special requests…"></textarea>
+              </div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-gold btn-lg w-100" id="submitBtn">
+                <span id="btnText">Send Enquiry <i class="fas fa-paper-plane ms-2"></i></span>
+                <span id="btnLoader" class="d-none"><i class="fas fa-spinner fa-spin me-2"></i> Sending…</span>
+              </button>
+            </div>
+          </div>
+        </form>
+        <div id="formSuccess" class="form-success-msg d-none">
+          <i class="fas fa-check-circle"></i>
+          <strong>Thank you!</strong> Your enquiry has been received. We'll call you within 24 hours.
+        </div>
+      </div>
+    </div>
+
+    <!-- Google Maps -->
+    <div class="map-wrap mt-5" data-aos="fade-up">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.1234567890!2d80.9456789!3d26.8467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfd991f32b16b%3A0x93ccba8909978be7!2sHazratganj%2C%20Lucknow%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin"
+        width="100%" height="380" style="border:0;" allowfullscreen="" loading="lazy">
+      </iframe>
+    </div>
+
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-brand">
+            <div class="d-flex align-items-center gap-2 mb-3">
+              <div class="logo-icon"><i class="fas fa-utensils"></i></div>
+              <div>
+                <div class="brand-name">Pratap Caters</div>
+                <div class="brand-tagline">Serving Happiness with Every Bite</div>
+              </div>
+            </div>
+            <p>Lucknow's most trusted premium catering service. Making every event a culinary masterpiece since 2009.</p>
+            <div class="footer-social">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-whatsapp"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h5 class="footer-heading">Quick Links</h5>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h5 class="footer-heading">Our Services</h5>
+          <ul class="footer-links">
+            <li><a href="#services">Wedding Catering</a></li>
+            <li><a href="#services">Corporate Events</a></li>
+            <li><a href="#services">Birthday Parties</a></li>
+            <li><a href="#services">Religious Functions</a></li>
+            <li><a href="#services">Social Gatherings</a></li>
+            <li><a href="#services">Live Food Counters</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h5 class="footer-heading">Contact</h5>
+          <ul class="footer-contact-list">
+            <li><i class="fas fa-map-marker-alt"></i> 23, Hazratganj, Lucknow, UP 226001</li>
+            <li><i class="fas fa-phone-alt"></i> <a href="tel:+919876543210">+91 98765 43210</a></li>
+            <li><i class="fas fa-envelope"></i> <a href="mailto:info@pratapcaters.in">info@pratapcaters.in</a></li>
+            <li><i class="fas fa-clock"></i> Mon–Sat: 9AM – 8PM</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container d-flex flex-wrap justify-content-between align-items-center gap-2">
+      <p>© 2025 Pratap Caters. All Rights Reserved.</p>
+      <p>Crafted with <i class="fas fa-heart text-gold"></i> in Lucknow, India</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ===== WHATSAPP FLOATING BUTTON ===== -->
+<a href="https://wa.me/919876543210?text=Hello%20Royal%20pratapcaters%2C%20I%20would%20like%20to%20enquire%20about%20catering%20services."
+   class="whatsapp-float" target="_blank" title="Chat on WhatsApp">
+  <i class="fab fa-whatsapp"></i>
+  <span class="whatsapp-tooltip">Chat with Us!</span>
+</a>
+
+<!-- ===== SCROLL TO TOP ===== -->
+<button id="scrollTop" title="Back to top"><i class="fas fa-chevron-up"></i></button>
+
+<!-- ===== SCRIPTS ===== -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
